@@ -1,0 +1,6 @@
+11:08:05Z GNSS session start
+11:09:35Z GNSS session: 87 fixes
+11:09:35Z SLEEP -> w+120s
+11:13:03Z TX w+302s len 16 : 40 84 C3 BD 64 00 06 00 0D 8C 6F BA D7 F0 5B 41
+11:13:03Z CAD: 162 scans, 7 hits
+11:13:03Z SLEEP -> w+0s (next window)

@@ -1,0 +1,25 @@
+{
+  "window": "12:05",
+  "preroll_slot": 5,
+  "slot_margin": 2.0,
+  "phase_margin": 1.5,
+  "channels": [868100000, 868300000, 868500000],
+  "nodes": [
+    {"id": 21, "name": "R1",  "profile": "relay", "parent": 0,  "ports": 3, "gnssbk": 1},
+    {"id": 23, "name": "R2",  "profile": "relay", "parent": 0,  "ports": 3, "gnssbk": 1},
+    {"id": 24, "name": "R3",  "profile": "relay", "parent": 0,  "ports": 3, "gnssbk": 1},
+    {"id": 41, "name": "E1",  "profile": "leaf",  "parent": 21, "ports": 3},
+    {"id": 42, "name": "E2",  "profile": "leaf",  "parent": 21, "ports": 3},
+    {"id": 22, "name": "R4",  "profile": "relay", "parent": 23, "ports": 3, "gnssbk": 1},
+    {"id": 43, "name": "E3",  "profile": "leaf",  "parent": 24, "ports": 3},
+    {"id": 44, "name": "E4",  "profile": "leaf",  "parent": 24, "ports": 3},
+    {"id": 25, "name": "R5",  "profile": "relay", "parent": 24, "ports": 3, "gnssbk": 1},
+    {"id": 51, "name": "S1",  "profile": "stake", "parent": 22, "ports": 2},
+    {"id": 52, "name": "S2",  "profile": "stake", "parent": 22, "ports": 2},
+    {"id": 53, "name": "S3",  "profile": "stake", "parent": 22, "ports": 2},
+    {"id": 54, "name": "S4",  "profile": "stake", "parent": 22, "ports": 2},
+    {"id": 55, "name": "S5",  "profile": "stake", "parent": 25, "ports": 2},
+    {"id": 56, "name": "S6",  "profile": "stake", "parent": 25, "ports": 2},
+    {"id": 57, "name": "S7",  "profile": "stake", "parent": 25, "ports": 2}
+  ]
+}
