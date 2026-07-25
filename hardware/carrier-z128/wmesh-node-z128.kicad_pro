@@ -1,0 +1,7 @@
+{
+  "board": {"design_settings": {"rules": {"min_clearance": 0.2, "min_track_width": 0.2,
+    "min_via_diameter": 0.6, "min_through_hole_diameter": 0.3}}},
+  "meta": {"filename": "wmesh-node-z128.kicad_pro", "version": 1},
+  "net_settings": {"classes": [{"name": "Default", "clearance": 0.2, "track_width": 0.25}]},
+  "pcbnew": {"last_paths": {}, "page_layout_descr_file": ""}
+}

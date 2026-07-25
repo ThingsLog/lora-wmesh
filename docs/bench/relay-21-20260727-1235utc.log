@@ -1,0 +1,7 @@
+[12:30:02Z port open]
+--- clean line-buffered capture ---
+12:35:06Z SLEEP -> w+20s
+12:35:47Z RX w+45s len 24 : 33 00 2F 40 0F 7C 3B E3 00 03 00 01 60 69 11 41 D6 3B FF F5 DE 00 67 AC  RSSI -19.00 SNR 13.75
+12:36:23Z TX w+81s len 11 : 15 00 1F 00 03 84 00 01 00 0E 74
+12:36:23Z TX w+81s len 21 : 40 0F 7C 3B E3 00 03 00 01 60 69 11 41 D6 3B FF F5 DE 00 67 AC
+12:36:23Z SLEEP -> w+0s (next window)
